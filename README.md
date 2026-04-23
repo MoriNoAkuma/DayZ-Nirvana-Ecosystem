@@ -95,6 +95,25 @@ Below is a section for demonstrating interfaces. Replace the files in docs/scree
 - Server status display.
 - Hall of fame showing people who made voluntary donations to the server.
 
+## Ecosystem Modules
+
+This ecosystem relies on required DayZ mods that provide core in-game functionality.
+
+### Modules
+- In-game menu module: connects the player interface with the ecosystem
+- Spawn kit module: automatically provides starter kits when a player spawns
+
+These modules are an essential part of the system and are required for full functionality.
+
+### In-Game Menu Module
+![In-Game Menu](docs/in-game-menu.png)
+
+### Spawn Kit System
+The spawn kit system can be managed through the browser.
+
+![Spawn Kit System](docs/spawn-kit-system.png)
+
+
 ## Live Demo
 
 - Public demo: https://nirvanadayz.me/
