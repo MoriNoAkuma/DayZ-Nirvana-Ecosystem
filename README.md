@@ -83,6 +83,7 @@ Below is a section for demonstrating interfaces.
 
 ## Features
 
+### Web-site features
 - Donation store with cases, plus coupon code creation for discounts; supports discounts on all products or individual items.
 - Informational page where any information can be posted.
 - User account page with personal player statistics and purchase history.
@@ -94,6 +95,15 @@ Below is a section for demonstrating interfaces.
 - English-language version of the site.
 - Server status display.
 - Hall of fame showing people who made voluntary donations to the server.
+
+### Discord bot features
+- Bot that shows server online, server time and time to next restart.
+- Ticket system, player tickets are saving in discord channel where you can review them later, unclaimed ticket reminders, claim system for admins,
+  rating system for admins work, customizable modals for ticket system.
+- Leaderboards in discord, kills, time played, longest shot
+- Discord shop, sharing same products with web-site shop.
+- Automated greeting to users and automated roles.
+- Kill-feed with Manageable text.
 
 ## Ecosystem Modules
 
