@@ -5,3 +5,4 @@
 - Expanded payment capabilities
 - Clearing specific player statistics (all)
 - Improvements to the Discord shop system: ability to add product photos, display discounts, ability to enter promo codes
+- Full bot settings editing through the web panel
