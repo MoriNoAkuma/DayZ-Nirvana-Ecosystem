@@ -1,7 +1,7 @@
 # Changelog
 
-## [Unreleased]
-- Система створення JSON продуктів через веб-інтерфейс
-- Розширення можливостей платежів
-- Очищення конкретної статистики гравців (усіх)
-- Вдосконалення системи магазину в діскорді: можливість додавати фото до продукту, віображення знижок, можливість вводити промокоди
+## [Under Development]
+- JSON product creation system via web interface
+- Expanded payment capabilities
+- Clearing specific player statistics (all)
+- Improvements to the Discord shop system: ability to add product photos, display discounts, ability to enter promo codes
