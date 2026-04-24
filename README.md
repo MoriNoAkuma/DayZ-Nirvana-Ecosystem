@@ -52,7 +52,7 @@ graph TD
 
 ## Screenshots
 
-Below is a section for demonstrating interfaces. Replace the files in docs/screenshots with your real screenshots.
+Below is a section for demonstrating interfaces.
 
 ### Web Interface
 
