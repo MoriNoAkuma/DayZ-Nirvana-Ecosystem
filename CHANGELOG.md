@@ -14,3 +14,7 @@
 ## Implemented v0.1.2
 - !!Realisation of buying `Queue Priority`
 - Page optimization
+
+## Hotfixes v0.1.3
+- Debug mode now can be turned on via admin panel on web-site
+- Fixed: active players were incorrectly removed from the online list after stale session reconciliation.
