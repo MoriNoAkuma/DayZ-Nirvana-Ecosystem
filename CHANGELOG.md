@@ -37,3 +37,23 @@
 ## Hotfixes
 - Fixed: DonationConfig attribute error when saving settings from the web constructor
 - Fixed: Metadata integrity loss (ProductID & DisplayName) during item delivery or case unboxing
+
+----------------------------------------------------------------------------------------------------------
+
+# v1.0.0 Full Release
+## Implemented
+
+- !!Integrated the DayZ mod with the event system (join/leave/kill/game_time via webhook)
+- Implemented a smart cascading server status system (DayZ -> CFTools -> BattleMetrics -> cache)
+- Added automatic game data freshness validation (heartbeat TTL = 180 seconds for the DayZ mod)
+- Optimized PendingStore parsing with update timestamp validation
+- Separated Discord bot logic from website logic
+- Integrated Jinja2 for the website
+- Moved the information panel to .json for easier updates
+- Added a fallback chain for accurate server data display (DayZ Server -> CFTools -> BattleMetrics)
+- Updated the Discord bot system, adding more flexible bot data control through the website admin panel
+
+## Hotfixes
+- Fixed incorrect player online count calculation (premature player removal from server online list)
+- Fixed: the Discord bot now correctly displays in-game server time (instead of N/A)
+- Fixed incorrect program licensing system behavior
