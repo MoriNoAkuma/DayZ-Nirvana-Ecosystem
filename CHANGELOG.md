@@ -57,3 +57,12 @@
 - Fixed incorrect player online count calculation (premature player removal from server online list)
 - Fixed: the Discord bot now correctly displays in-game server time (instead of N/A)
 - Fixed incorrect program licensing system behavior
+
+----------------------------------------------------------------------------------------------------------
+
+# v1.0.1
+## Implemented
+- Automatic message translation in a configured channel with provider fallback chain: Gemini → DeepL → Google Translate
+
+## Bug Fixes
+- Killfeed: suicide via F11 is now recorded correctly
