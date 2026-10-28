@@ -56,8 +56,18 @@ Below is a section for demonstrating interfaces.
 
 ### Web Interface
 
-![Web Main 1](docs/web-main-1.png)
-![Web Main 2](docs/web-main-2.png)
+![Home](docs/web-main-1.png)
+![Home: Leaderboards and Live Stats](docs/web-main-2.png)
+![Home: Why Play on Nirvana](docs/web-main-3.png)
+![Home: Discord](docs/web-main-4.png)
+![Store](docs/web-shop.png)
+![Store: Product Checkout](docs/web-shop-product.png)
+![Cases](docs/web-cases.png)
+![Case Roulette](docs/web-cases-roulette.png)
+![Case Reward](docs/web-cases-result.png)
+![Player Account](docs/web-account.png)
+![Leaderboards](docs/web-leaderboards.png)
+![Wiki](docs/web-wiki.png)
 
 ### Web Interface of Admin Panel
 ![Web Admin Dashboard](docs/web-admin-dashboard.png)
@@ -65,13 +75,16 @@ Below is a section for demonstrating interfaces.
 ![Web Admin Cases Editor](docs/web-admin-cases.png)
 ![Web Admin Players Info Manager](docs/web-admin-players.png)
 ![Web Admin Products Editor](docs/web-admin-products.png)
+![Web Admin JSON Templates](docs/web-admin-templates.png)
 ![Web Admin Categories](docs/web-admin-categories.png)
 ![Web Admin Case Editors](docs/web-admin-case-editors.png)
 ![Web Admin Spawn Kits Editor](docs/web-admin-spawn-kits.png)
 ![Web Admin Promocodes Editor](docs/web-admin-promocodes.png)
 ![Web Admin Sales Editor](docs/web-admin-sales-editor.png)
 ![Web Admin [Payment Methods]](docs/web-admin-payment-methods.png)
-![Web Admin Settings](docs/web-admin-settings.png)
+![Web Admin Channel Translation](docs/web-admin-translate.png)
+![Web Admin Settings and API Key Check](docs/web-admin-settings.png)
+![Web Admin Page Content (Wiki / Rules)](docs/web-admin-content.png)
 
 ### Web Interface of Daily Cases
 ![Web Daily Case Feature](docs/web-daily-case-feature.png)
@@ -95,6 +108,8 @@ Below is a section for demonstrating interfaces.
 - English-language version of the site.
 - Server status display.
 - Hall of fame showing people who made voluntary donations to the server.
+- Redesigned site: full-screen home sections, a card-style store with a two-column checkout, and a CS-style case roulette with smooth slow-down and reward reveal.
+- Wiki and rules pages edited from the admin panel.
 
 ### Discord bot features
 - Bot that shows server online, server time and time to next restart.
@@ -104,6 +119,12 @@ Below is a section for demonstrating interfaces.
 - Discord shop, sharing same products with web-site shop.
 - Automated greeting to users and automated roles.
 - Kill-feed with Manageable text.
+- Channel translation links: pick 2+ Discord channels with a language each, and every message is translated into the others (Gemini, with DeepL and Google Translate as fallbacks).
+
+### Admin panel features
+- Channel and role pickers filled with live data from Discord (the bot publishes its servers, channels and roles; no bot token on the website).
+- One-click API key check: every provider (Gemini, DeepL, Google Translate, Monobank, Donatello, CFTools) is called for real and the panel shows what works and why not.
+- Status of the last translation right in the panel, so failures don't need a trip to the logs.
 
 ## Ecosystem Modules
 

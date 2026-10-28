@@ -66,3 +66,23 @@
 
 ## Bug Fixes
 - Killfeed: suicide via F11 is now recorded correctly
+
+----------------------------------------------------------------------------------------------------------
+
+# v1.1.0
+## Implemented
+- !!New website design: full-screen home sections, a card-style store with a two-column checkout, redesigned account, leaderboard and wiki pages
+- !!Case roulette redesign: picture cards with rarity colours, smooth slow-down, random landing inside the winning card and a reward reveal
+- !!Channel translation links in the admin panel: pick 2+ channels with a language each, messages are translated in every direction
+- Live Discord channel and role pickers in the admin panel (the bot publishes its servers, channels and roles to the shared database)
+- One-click API key check for Gemini, DeepL, Google Translate, Monobank, Donatello and CFTools
+- Status of the last translation shown in the admin panel
+- Gemini now uses an always-current model alias and retries once on temporary overload
+
+## Bug Fixes
+- Store: one click on "Buy" sent two purchase requests, and a disabled payment method (PayPal) was offered
+- Store: internal fields (template file, delivery type) are no longer shown to buyers
+- Admin panel: saving bot settings no longer corrupts Discord channel IDs
+- Translation: the Gemini key from the config was never applied, so every message silently went to the fallback translator
+- Website: the top bar no longer shows a raw SteamID when Steam throttles profile requests (profiles are cached)
+- Security: an empty admin list no longer gives admin access to every Steam login; the legacy admin URL that bypassed the hidden path was removed

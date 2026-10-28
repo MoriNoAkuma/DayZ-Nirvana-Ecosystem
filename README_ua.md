@@ -55,8 +55,18 @@ graph TD
 Нижче секція для демонстрації інтерфейсів.
 
 ### Веб-інтерфейс
-![Web Main 1](docs/web-main-1.png)
-![Web Main 2](docs/web-main-2.png)
+![Головна](docs/web-main-1.png)
+![Головна: лідерборди та живий онлайн](docs/web-main-2.png)
+![Головна: чому варто грати на Nirvana](docs/web-main-3.png)
+![Головна: Discord](docs/web-main-4.png)
+![Магазин](docs/web-shop.png)
+![Магазин: оформлення товару](docs/web-shop-product.png)
+![Кейси](docs/web-cases.png)
+![Рулетка кейсу](docs/web-cases-roulette.png)
+![Виграш з кейсу](docs/web-cases-result.png)
+![Акаунт гравця](docs/web-account.png)
+![Таблиця лідерів](docs/web-leaderboards.png)
+![Вікі](docs/web-wiki.png)
 
 ### Веб-інтерфейс Адмін Панелі
 ![Web Admin Dashboard](docs/web-admin-dashboard.png)
@@ -64,13 +74,16 @@ graph TD
 ![Web Admin Cases Editor](docs/web-admin-cases.png)
 ![Web Admin Players Info Manager](docs/web-admin-players.png)
 ![Web Admin Products Editor](docs/web-admin-products.png)
+![Web Admin JSON Templates](docs/web-admin-templates.png)
 ![Web Admin Categories](docs/web-admin-categories.png)
 ![Web Admin Case Editors](docs/web-admin-case-editors.png)
 ![Web Admin Spawn Kits Editor](docs/web-admin-spawn-kits.png)
 ![Web Admin Promocodes Editor](docs/web-admin-promocodes.png)
 ![Web Admin Sales Editor](docs/web-admin-sales-editor.png)
 ![Web Admin [Payment Methods]](docs/web-admin-payment-methods.png)
-![Web Admin Settings](docs/web-admin-settings.png)
+![Web Admin Переклад каналів](docs/web-admin-translate.png)
+![Web Admin Налаштування та перевірка API-ключів](docs/web-admin-settings.png)
+![Web Admin Контент сторінок (Вікі / Правила)](docs/web-admin-content.png)
 
 ### Веб-інтерфейс Щоденних кейсів
 ![Web Daily Case Feature](docs/web-daily-case-feature.png)
@@ -94,6 +107,8 @@ graph TD
 - Англомовна версія сайту.
 - Відображення статусу серверу.
 - Дошка пошани, там відображаються люди які внесли добровільні пожертви для серверу.
+- Новий дизайн сайту: повноекранні секції головної, магазин з картками та оформленням у дві колонки, рулетка кейсів у стилі CS з плавним гальмуванням і показом виграшу.
+- Сторінки «Вікі» та «Правила» редагуються з адмін-панелі.
 
 ### Функції Discord-бота
 - Бот, який показує онлайн сервера, серверний час та час до наступного рестарту.
@@ -103,6 +118,12 @@ graph TD
 - Discord-магазин, що має спільні товари з веб-магазином.
 - Автоматичне привітання користувачів та автоматичні ролі.
 - Кіл-фід з налаштовуваним текстом.
+- Зв'язки каналів для перекладу: обираєш 2+ Discord-канали з мовою для кожного, і кожне повідомлення перекладається в інші (Gemini, резерв — DeepL і Google Translate).
+
+### Функції адмін-панелі
+- Вибір каналів і ролей зі списку, який бот сам передає з Discord (токен бота на сайт не потрапляє).
+- Перевірка API-ключів в один клік: сайт по-справжньому звертається до кожного сервісу (Gemini, DeepL, Google Translate, Monobank, Donatello, CFTools) і показує, що працює, а що ні й чому.
+- Статус останнього перекладу прямо в панелі, без читання логів.
 
 ## Модулі екосистеми
 
