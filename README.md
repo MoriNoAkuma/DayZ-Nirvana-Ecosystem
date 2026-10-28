@@ -147,7 +147,7 @@ The spawn kit system can be managed through the browser.
 
 ## Live Demo
 
-- Public demo: https://nirvanadayz.me/
+- Public demo: https://nirvanadayz.me/ - NOT WORKING!
 - Discord community: https://discord.gg/EGf9MzjEyy
 
 ## Source Code Status
