@@ -145,7 +145,7 @@ graph TD
 
 ## Live Demo
 
-- Публічне демо: https://nirvanadayz.me/
+- Публічне демо: https://nirvanadayz.me/ - НЕ ПРАЦЮЄ!
 - Discord ком'юніті: https://discord.gg/EGf9MzjEyy
 
 ## Статус вихідного коду
